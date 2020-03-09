@@ -68,7 +68,7 @@ namespace ConsoleApp1
             Utitlitymethod.Click_method(driver, "//*[@id='optId-']/div/a[4]/span/img", "XPath");
             System.Threading.Thread.Sleep(5000);
 
-            /*    Utitlitymethod.Click_method(driver, "/html/body/div[5]/div/div/form/div[2]/div[2]/div[2]/div[3]/div/fieldset/div[2]/div/a[2]/span/img", "XPath");
+             Utitlitymethod.Click_method(driver, "/html/body/div[5]/div/div/form/div[2]/div[2]/div[2]/div[3]/div/fieldset/div[2]/div/a[2]/span/img", "XPath");
                  System.Threading.Thread.Sleep(2000);
 
                 Utitlitymethod.Click_method(driver, "/html/body/div[5]/div/div/form/div[2]/div[2]/div[2]/div[3]/div/fieldset/div[3]/div/a[4]/span/img", "XPath");
@@ -110,7 +110,7 @@ namespace ConsoleApp1
                 Utitlitymethod.Sendkeys_method(driver, "txtQuantity", "5", "Id");
                 System.Threading.Thread.Sleep(2000);
                 Utitlitymethod.Click_method(driver, "btn-set-quantity", "Id");
-    */
+    
                //click on preview and buy button
                Utitlitymethod.Click_method(driver, "btnFinalPreview", "Id");
 
