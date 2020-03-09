@@ -134,7 +134,7 @@ namespace ConsoleApp1
         [TearDown]
         public void close()
         {
-            //driver.Close();
+            driver.Close();
 
             Console.WriteLine("close browser");
         }
