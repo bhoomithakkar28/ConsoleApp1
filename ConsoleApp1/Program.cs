@@ -19,7 +19,7 @@ namespace ConsoleApp1
  IWebDriver driver = new ChromeDriver();
         static void Main(string[] args)
         {
-           
+            Console.WriteLine("end to end scenario for cdouk vega ");
            
         }
         [SetUp]
