@@ -13,10 +13,8 @@ using WindowsInput;
 namespace ConsoleApp1
 {
     class Program
-    {
-      
-           
- IWebDriver driver = new ChromeDriver();
+    {         
+            IWebDriver driver = new ChromeDriver();
         static void Main(string[] args)
         {
             Console.WriteLine("end to end scenario for cdouk vega ");
